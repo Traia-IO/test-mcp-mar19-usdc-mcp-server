@@ -1,0 +1,26 @@
+{
+  "github_url": "https://github.com/Traia-IO/test-mcp-mar19-usdc-mcp-server",
+  "mcp_server": {
+    "name": "test-mcp-mar19-usdc-mcp",
+    "description": "Test mcp mar19 usdc",
+    "server_type": "streamable-http",
+    "requires_api_key": false,
+    "capabilities": [
+      "list_all_providers",
+      "list_all_apis",
+      "get_basic_metrics"
+    ],
+    "payment_protocol": "402",
+    "dual_mode": true,
+    "dual_mode_description": "Supports both authenticated (free with API key) and payment (402 protocol) modes"
+  },
+  "deployment_method": "cloud_run",
+  "gcp_project_id": "traia-mcp-servers",
+  "gcp_region": "us-central1",
+  "tags": [
+    "test mcp mar19 usdc",
+    "api",
+    "mcp"
+  ],
+  "ref": "main"
+}
